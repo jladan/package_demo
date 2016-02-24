@@ -17,6 +17,6 @@ def sup(x_in):
     x = array(x_in).flatten()
     return max(abs(x))
 
-def manhattan(x_in):
+def hamming(x_in):
     x = array(x_in).flatten()
     return sum( ( abs(x) >= 1) * 1 )

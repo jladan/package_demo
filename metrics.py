@@ -1,5 +1,5 @@
 """
-A collection of different norms that work on finite-dimensional collections of numbers
+A collection of different metrics that work on finite-dimensional collections of numbers
 """
 
 from numpy import array
@@ -20,7 +20,7 @@ def sup(x_in, y_in):
     y = array(y_in).flatten()
     return max(abs(x-y))
 
-def manhattan(x_in, y_in):
+def hamming(x_in, y_in):
     x = array(x_in).flatten()
     y = array(y_in).flatten()
     # for some reason, `-` is evaluated as component-wise xor
