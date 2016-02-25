@@ -1,0 +1,4 @@
+# any additional files to include should be added here
+
+# For the license and changes files
+include *.txt
