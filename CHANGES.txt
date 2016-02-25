@@ -1,3 +1,6 @@
+v0.5, 2016-02-24
+ * add a sample script
+
 v0.4, 2016-02-24
  * create a few simple tests
 
