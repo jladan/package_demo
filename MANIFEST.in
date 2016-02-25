@@ -2,3 +2,9 @@
 
 # For the license and changes files
 include *.txt
+
+# The tests
+recursive-include tests *.py
+
+# The docs
+recursive-include doc *.rst
