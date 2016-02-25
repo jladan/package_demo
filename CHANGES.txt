@@ -1,3 +1,6 @@
+v0.4, 2016-02-24
+ * create a few simple tests
+
 v0.3, 2016-02-24
  * add MANIFEST.in to include the license in the package
  * start some 'docs'
