@@ -1,3 +1,7 @@
+v0.3, 2016-02-24
+ * add MANIFEST.in to include the license in the package
+ * start some 'docs'
+
 v0.2, 2016-02-24
  * add README, license, and changes
 
